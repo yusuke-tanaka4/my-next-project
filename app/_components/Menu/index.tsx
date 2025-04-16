@@ -35,8 +35,8 @@ export default function Menu() {
           />
         </button>
       </nav>
-      <button className={styles.button}>
-        <Image src="/menu.svg" alt="メニュー" width={24} height={24} />
+      <button className={styles.button} onClick={open}>
+        <Image src="/menu.svg" alt="メニュー" width={24} height={24} priority />
       </button>
     </div>
   );
